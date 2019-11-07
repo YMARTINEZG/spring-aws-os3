@@ -1,0 +1,12 @@
+fp:
+  aws:
+     region: ${AWS_DOCS_REGION:us-east-2}
+     bucket: ${AWS_DOCS_BUCKET:sigom-s3-bucket}
+     expirationMinutes: 60
+     owner:
+        accessKey: ${AWS_DOCS_OWNER_ACCESS_KEY:<<your access key here>>}
+        secretKey: ${AWS_DOCS_OWNER_SECRET_KEY:<<your secret key here>>}
+     read:
+        accessKey: ${AWS_DOCS_READ_ACCESS_KEY:<<your access key here>>}
+        secretKey: ${AWS_DOCS_READ_SECRET_KEY:<<your secret key here>>}
+
